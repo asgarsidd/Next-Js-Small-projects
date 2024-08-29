@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>TABle</title>
+  </head>
+  <style>
+    section{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: aliceblue;
+        width: 700px;
+        height: 500px;
+        margin: auto;
+        border: 15px solid transparent;
+        border-image: url(border.png) 50 round;
+        
+        
+    }
+    /* section h1{
+        text-align: center;
+        margin: 20px;
+    } */
+
+  </style>
+  <body>
+    <section   >
+    <h1 >Student marks:-</h1>
+    
+    <table
+      border="1px solid black"
+      style="width: 500px; height: 300px"
+    >
+      <tr>
+        <th>Name</th>
+        <th>chemistry</th>
+        <th>physics</th>
+        <th>English</th>
+        <th>Math</th>
+      </tr>
+      <tr>
+        <td>Rohan</td>
+        <td>85</td>
+        <td>85</td>
+        <td>85</td>
+        <td rowspan="4" style="background-color: aqua">
+          rowspan:"4" <b>85</b>
+        </td>
+      </tr>
+      <tr>
+        <td>sivam</td>
+
+        <td>85</td>
+        <td>85</td>
+        <td>85</td>
+      </tr>
+      <tr>
+        <td>rahul</td>
+        <td rowspan="2" style="background-color: aqua">its rowspan 2</td>
+        <td>90</td>
+
+        <td>85</td>
+      </tr>
+      <tr>
+        <td>ayan</td>
+        <td>85</td>
+        <td>85</td>
+      </tr>
+      <tr>
+        <td>vicky</td>
+        <td>85</td>
+        <td>85</td>
+        <td>85</td>
+        <td>85</td>
+      </tr>
+      <tr>
+        <td>Total</td>
+        <td
+          colspan="4"
+          style="text-align: center; font-weight: 900; background-color: brown"
+        >
+          colspan:"4"
+        </td>
+        <!-- <td>85</td>
+            <td>85</td> -->
+        <!-- <td>85</td> -->
+      </tr>
+    </table>
+</section>
+  </body>
+</html>

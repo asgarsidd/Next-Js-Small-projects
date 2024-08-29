@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Create a form with every single input types with a submit button, skip styling part.  -->
+    <form action="" align="center">
+      <h1>Student Registration Form:-</h1>
+      <table cellpadding="5" cellspacing="10" bgcolor="lightgreen" align="center">
+        <tr>
+          <td>
+            <label for="username" style="font-size: 20px">Username: </label>
+          </td>
+          <td>
+            <input type="text" id="username" placeholder="Username" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="password" style="font-size: 20px">Password: </label>
+          </td>
+          <td>
+            <input
+              type="password"
+              id="password"
+              placeholder="password"
+              style="margin-top: 10px"
+            />
+          </td>
+        </tr>
+        <tr>
+            <td>Father Name: </td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Date of Bith: </td>
+            <td><input type="date" name="date" id=""></td>
+        </tr>
+        <tr>
+            <td>Email: </td>
+            <td><input type="email" name="email" id=""></td>
+        </tr>
+        <tr>
+            <td>Gender: </td>
+            <td>
+                <input type="radio" name="gender" id=""> Male 
+                <input type="radio" name="gender" id="">Female 
+            </td>
+        </tr>
+        <tr>
+            <td>Select Course: </td>
+            <td>
+            <select name="course" id="">
+                <option value="">---Select--</option>
+                <option value="">HTML</option>
+                <option value="">CSS</option>
+                <option value="">Javascript</option>
+                <option value="">REACTJs</option>
+
+            </select>
+        </td>
+        </tr>
+        <tr>
+            <td>Hobbies: </td>
+            <td><input type="checkbox" name="reading" id="">reading
+                <input type="checkbox" name="coding" id="">Coding
+                <input type="checkbox" name="gaming" id="">Gaming
+            </td>
+        </tr>
+        <tr>
+            <td>Address: </td>
+            <td><textarea name="address" id="" cols="22" rows="4"></textarea></td>
+        </tr>
+        <tr>
+            <td>Photo: </td>
+            <td><input type="file" name="photo" id=""></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="submit"></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
